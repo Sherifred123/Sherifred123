@@ -47,4 +47,55 @@ I build **production-ready embedded systems** for industrial automation — focu
 
 ### 🧰 Tools
 - MPLAB X IDE • MikroC • Keil
-- ST
+- STM32CubeIDE / CubeMX
+- Arduino IDE
+- Oscilloscope / Multimeter debugging
+
+---
+
+## 🏭 Featured Projects (Industrial Firmware)
+
+### 🔹 Automatic Transfer Switch (ATS) Controller
+- Interrupt-driven firmware on **PIC18 MCU**
+- Reliable detection of **undervoltage + phase imbalance** using calibrated ADC sampling
+- Deterministic multi-state switching logic with **break-before-make safety**
+- Generator control: crank/recrank, warm-up/cool-down, EEPROM configuration
+
+➡️ *Embedded + power automation focused firmware project*
+
+---
+
+### 🔹 Textile Loom Production Monitor (16 Loom Logger)
+- Real-time monitoring and shift-wise logging for **16 textile looms**
+- GLCD dashboard UI + configuration menu
+- RTC timestamping + EEPROM storage
+- Power-fail safe data handling
+
+➡️ Repo: `textile-loom-production-monitor`
+
+---
+
+### 🔹 Temperature Controllers (Industrial)
+- Multi-stage compressor temperature controller on **PIC18F46K22**
+- Sensor interfacing: NTC (ADC), DS18B20 (1-Wire), MAX6675 (SPI)
+- Parameterized control logic (alarms, differential, delays, sequencing)
+
+---
+
+## 📌 What I'm Improving Now
+- ✅ Git & GitHub workflow (branching, clean commits)
+- ✅ STM32 drivers + HAL to bare-metal understanding
+- ✅ FreeRTOS fundamentals
+- ✅ Interview communication & project explanation clarity
+
+---
+
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Sherifred123&show_icons=true&theme=tokyonight" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sherifred123&layout=compact&theme=tokyonight" height="160"/>
+</p>
+
+---
+
+⭐ *“I build firmware that must work — even when power fails, signals are noisy, and timing matters.”*
