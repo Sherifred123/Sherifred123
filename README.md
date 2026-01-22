@@ -1,7 +1,11 @@
-<h1 align="center">Hi 👋, I'm Sherifred Singh</h1>
+<h1 align="center">
+  Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32px">, I'm Sherifred Singh
+</h1>
+
 <h3 align="center">
-Embedded Software Developer | Industrial Automation Firmware | PIC • STM32 • ESP32
+  Embedded Software Developer | Industrial Automation Firmware | PIC • STM32 • ESP32
 </h3>
+
 
 <p align="center">
   <a href="https://github.com/Sherifred123">
@@ -30,6 +34,20 @@ I build **production-ready embedded systems** for industrial automation — focu
 ---
 
 ## 🛠 Core Skills (Embedded Focus)
+<p align="center">
+  <img src="https://img.shields.io/badge/Embedded%20C-000?style=for-the-badge&logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PIC%20MCU-000?style=for-the-badge&logo=microchip&logoColor=white"/>
+  <img src="https://img.shields.io/badge/STM32-000?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ESP32-000?style=for-the-badge&logo=espressif&logoColor=white"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/UART-0e75b6?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/SPI-0e75b6?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/I2C-0e75b6?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/RTOS%20-7F00FF?style=for-the-badge"/>
+</p>
+
 
 ### 👨‍💻 Programming
 - **C / Embedded C**
