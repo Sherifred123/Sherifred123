@@ -82,14 +82,6 @@ I build **production-ready embedded systems** for industrial automation — focu
 
 ---
 
-## 📌 What I'm Improving Now
-- ✅ Git & GitHub workflow (branching, clean commits)
-- ✅ STM32 drivers + HAL to bare-metal understanding
-- ✅ FreeRTOS fundamentals
-- ✅ Interview communication & project explanation clarity
-
----
-
 ## 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Sherifred123&show_icons=true&theme=tokyonight" height="160"/>
