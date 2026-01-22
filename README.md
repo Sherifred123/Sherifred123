@@ -12,7 +12,7 @@ Embedded Software Developer | Industrial Automation Firmware | PIC • STM32 •
 <p align="center">
   <a href="mailto:ssherifred@gmail.com"><b>Email</b></a> •
   <a href="https://github.com/Sherifred123"><b>GitHub</b></a> •
-  <a href="(www.linkedin.com/in/sherifredsing)"><b>LinkedIn</b></a>
+  <a href="www.linkedin.com/in/sherifredsing"><b>LinkedIn</b></a>
 </p>
 
 ---
