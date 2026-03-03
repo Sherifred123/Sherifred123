@@ -101,12 +101,19 @@ I build **production-ready embedded systems** for industrial automation — focu
 
 ---
 
-## 📊 GitHub Stats
+### 📊 GitHub Activity & Metrics
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sherifred123&show_icons=true&theme=tokyonight" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sherifred123&layout=compact&theme=tokyonight" height="160"/>
+  <a href="https://github.com/Sherifred123">
+    <img src="https://streak-stats.demolab.com?user=Sherifred123&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" height="170" alt="GitHub Streak" />
+  </a>
+  <a href="https://github.com/Sherifred123">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sherifred123&theme=tokyonight" height="170" alt="GitHub Profile Details" />
+  </a>
 </p>
 
----
+<br>
 
-⭐ *“I build firmware that must work — even when power fails, signals are noisy, and timing matters.”*
+<p align="center">
+ ⭐ <i><b>"I build firmware that must work — even when power fails, signals are noisy, and timing matters."</b></i>
+</p>
