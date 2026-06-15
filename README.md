@@ -23,7 +23,7 @@
 ---
 
 ## ⚡ About Me
-I’m an **Embedded Software Developer** from **Coimbatore, India**, with **7 years overall industry experience** and **~5 years in firmware development**.  
+I’m an **Embedded Software Developer** from **Coimbatore, India**, with **6.5 years overall industry experience** and **~4.5 years in firmware development**.  
 I build **production-ready embedded systems** for industrial automation — focused on reliability, real-time control, and clean peripheral integration.
 
 - 🧠 Strong in **Embedded C**, MCU peripherals, interrupt-based firmware
