@@ -1,119 +1,88 @@
-<h1 align="center">
-  Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32px">, I'm Sherifred Singh
-</h1>
-
-<h3 align="center">
-  Embedded Software Developer | Industrial Automation Firmware | PIC • STM32 • ESP32
-</h3>
-
-
-<p align="center">
-  <a href="https://github.com/Sherifred123">
-    <img src="https://komarev.com/ghpvc/?username=Sherifred123&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="mailto:ssherifred@gmail.com"><b>Email</b></a> •
-  <a href="https://github.com/Sherifred123"><b>GitHub</b></a> •
-  <a href="https://www.linkedin.com/in/sherifredsing/"><b>LinkedIn</b></a>
-</p>
-
+# Sherifred Singh
+### Embedded Firmware Engineer | Industrial Automation & Control Systems
+**Coimbatore, India** • [LinkedIn](https://www.linkedin.com/in/sherifredsing/) • [Email](mailto:ssherifred@gmail.com)
 
 ---
 
-## ⚡ About Me
-I’m an **Embedded Software Developer** from **Coimbatore, India**, with **6.5 years overall industry experience** and **~4.5 years in firmware development**.  
-I build **production-ready embedded systems** for industrial automation — focused on reliability, real-time control, and clean peripheral integration.
+## ⚡ Summary
 
-- 🧠 Strong in **Embedded C**, MCU peripherals, interrupt-based firmware
-- 🔧 Hands-on with **debugging, PCB testing, soldering** (SMD & Through-hole)
-- 💡 Interested in **RTOS, STM32, Linux basics**, and scalable firmware architecture
-- 🎯 Goal: move into a stronger **product-based embedded company**
+Embedded Firmware Developer with **6.5+ years in industrial automation** (4.5+ years specialized in core firmware development, preceded by 2 years in hardware testing and control system bring-up). 
+
+Focused on register-level **Embedded C**, modular peripheral drivers, state machines, and FreeRTOS across **PIC18** and **STM32 (ARM Cortex-M)** platforms. I prioritize writing clean, predictable firmware with clear hardware abstraction and robust fault handling.
 
 ---
 
-## 🛠 Core Skills (Embedded Focus)
-<p align="center">
-  <img src="https://img.shields.io/badge/Embedded%20C-000?style=for-the-badge&logo=c&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PIC%20MCU-000?style=for-the-badge&logo=microchip&logoColor=white"/>
-  <img src="https://img.shields.io/badge/STM32-000?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ESP32-000?style=for-the-badge&logo=espressif&logoColor=white"/>
-</p>
+## 🛠 Technical Skills
 
-<p align="center">
-  <img src="https://img.shields.io/badge/UART-0e75b6?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/SPI-0e75b6?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/I2C-0e75b6?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/RTOS%20-7F00FF?style=for-the-badge"/>
-</p>
-
-
-### 👨‍💻 Programming
-- **C / Embedded C**
-- Firmware design (modular drivers, state machine logic)
-- Optimization (execution efficiency, code size reduction)
-
-### 🧩 Microcontrollers
-- **PIC16 / PIC18** (PIC16F887, PIC18F46K22)
-- **STM32** (STM32F103C6 - Bluepill)
-- **ESP32**, Arduino
-
-### 🔌 Protocols & Interfaces
-- UART • SPI • I2C • Bluetooth
-- RTC integration (DS1307 / DS3231)
-- Sensor interfacing & signal validation
-
-### 🧰 Tools
-- MPLAB X IDE • MikroC • Keil
-- STM32CubeIDE / CubeMX
-- Arduino IDE
-- Oscilloscope / Multimeter debugging
+- **Languages:** C, Embedded C
+- **Firmware Design:** Bare-Metal Drivers, State Machines, Non-Blocking Timers, ISR Architecture
+- **RTOS:** FreeRTOS (Tasks, Queues, Semaphores, Mutexes)
+- **Microcontrollers:** Microchip PIC16 / PIC18, STM32 ARM Cortex-M (STM32F1), ESP32 
+- **Protocols & Busses:** UART, SPI, I2C, 1-Wire, RS-485 / Modbus RTU, BLE
+- **Development Tools:** MPLAB X, STM32CubeIDE, Keil µVision, Git
+- **Hardware & Lab Testing:** Digital Storage Oscilloscope (DSO), Logic Analyzer, Multimeter, SMD & THT Soldering
 
 ---
 
-## 🏭 Featured Projects (Industrial Firmware)
+## 💡 Areas of Interest
+
+- Embedded Linux & Build Systems
+- Modular Driver Architecture
+- Industrial Automation & Protocol Gateways
+- Real-Time Embedded Systems (RTOS)
+
+---
+
+## 🏭 Commercial Projects
 
 ### 🔹 Automatic Transfer Switch (ATS) Controller
-- Interrupt-driven firmware on **PIC18 MCU**
-- Reliable detection of **undervoltage + phase imbalance** using calibrated ADC sampling
-- Deterministic multi-state switching logic with **break-before-make safety**
-- Generator control: crank/recrank, warm-up/cool-down, EEPROM configuration
+**Target:** Microchip PIC18 • **Status:** Commercial Product *(Source Code Confidential)*  
+*Industrial power automation controller for automated, fail-safe switching between mains grid and backup generator.*
 
-➡️ *Embedded + power automation focused firmware project*
+* **Role:** Firmware Design, Driver Development & Lab Validation.
 
----
-
-### 🔹 Textile Loom Production Monitor (16 Loom Logger)
-- Real-time monitoring and shift-wise logging for **16 textile looms**
-- GLCD dashboard UI + configuration menu
-- RTC timestamping + EEPROM storage
-- Power-fail safe data handling
-
-➡️ Repo: `textile-loom-production-monitor`
+* Implemented multi-state generator & mains transfer logic with strict *break-before-make* relay interlocking to prevent cross-connection.
+* Configured calibrated ADC sampling for rapid undervoltage, overvoltage, and phase-imbalance detection.
+* Automated generator engine sequencing: warm-up/cool-down timing, crank/recrank cycles, and persistent fault and runtime event logging to internal EEPROM.
 
 ---
 
-### 🔹 Temperature Controllers (Industrial)
-- Multi-stage compressor temperature controller on **PIC18F46K22**
-- Sensor interfacing: NTC (ADC), DS18B20 (1-Wire), MAX6675 (SPI)
-- Parameterized control logic (alarms, differential, delays, sequencing)
+### 🔹 16-Loom Textile Production Monitor
+**Target:** PIC18 / STM32 • **Status:** Commercial Product *(Source Code Confidential)*  
+*Edge monitoring and logging system deployed across industrial weaving facilities.*
+
+* **Role:** Firmware Implementation, GLCD HMI Interface & EEPROM Storage.
+
+* Collected and aggregated real-time, shift-wise production metrics from up to 16 looms simultaneously.
+* Built a power-fail-safe state snapshotting mechanism to EEPROM with RTC (DS3231) timestamping to prevent data loss during power cuts.
+* Developed an interactive Graphical LCD (GLCD) menu for operator configuration, calibration, and shift reporting.
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### 🔹 Multi-Stage Industrial Temperature Controller
+**Target:** PIC18F46K22 • **Status:** Commercial Product *(Source Code Confidential)*  
+*Precision cooling and compressor management controller for commercial refrigeration units.*
 
-<p align="center">
-  <a href="https://github.com/Sherifred123">
-    <img src="https://streak-stats.demolab.com?user=Sherifred123&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" height="170" alt="GitHub Streak" />
-  </a>
-  <a href="https://github.com/Sherifred123">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sherifred123&theme=tokyonight" height="170" alt="GitHub Profile Details" />
-  </a>
-</p>
+* **Role:** Sensor Driver Integration & Control Logic.
 
-<br>
+* Interfaced multiple sensor types: analog NTC (calibrated ADC lookup-table (LUT) linearisation), 1-Wire (DS18B20), and SPI (MAX6675 thermocouple interface).
+* Implemented staged multi-compressor control with configurable differential hysteresis, anti-short-cycle delay timers, and alarm trip matrices.
 
-<p align="center">
- ⭐ <i><b>"I build firmware that must work — even when power fails, signals are noisy, and timing matters."</b></i>
-</p>
+---
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://github.com/Sherifred123">
+          <img src="https://streak-stats.demolab.com?user=Sherifred123&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" height="145" alt="GitHub Streak" />
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a href="https://github.com/Sherifred123">
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sherifred123&theme=tokyonight" height="145" alt="GitHub Profile Details" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
