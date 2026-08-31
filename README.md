@@ -17,7 +17,7 @@ Focused on register-level **Embedded C**, modular peripheral drivers, state mach
 - **Languages:** C, Embedded C
 - **Firmware Design:** Bare-Metal Drivers, State Machines, Non-Blocking Timers, ISR Architecture
 - **RTOS:** FreeRTOS (Tasks, Queues, Semaphores, Mutexes)
-- **Microcontrollers:** Microchip PIC16 / PIC18, STM32 ARM Cortex-M (STM32F1), ESP32 
+- **Microcontrollers:** Microchip PIC16 / PIC18, STM32 ARM Cortex-M (STM32F1), ESP32 (Basic)
 - **Protocols & Busses:** UART, SPI, I2C, 1-Wire, RS-485 / Modbus RTU, BLE
 - **Development Tools:** MPLAB X, STM32CubeIDE, Keil µVision, Git
 - **Hardware & Lab Testing:** Digital Storage Oscilloscope (DSO), Logic Analyzer, Multimeter, SMD & THT Soldering
@@ -30,6 +30,16 @@ Focused on register-level **Embedded C**, modular peripheral drivers, state mach
 - Modular Driver Architecture
 - Industrial Automation & Protocol Gateways
 - Real-Time Embedded Systems (RTOS)
+
+---
+
+## 📂 Core Firmware Modules & Driver Architecture (Open Source)
+
+* ⭐ **[embedded-c-ring-buffer](https://github.com/Sherifred123/embedded-c-ring-buffer)** — Lock-free, thread-safe FIFO circular ring buffer in C99 for UART/SPI ISR-to-main communication.
+* ⭐ **[embedded-fsm-engine](https://github.com/Sherifred123/embedded-fsm-engine)** — Table-driven Finite State Machine (FSM) framework with an Automatic Transfer Switch (ATS) industrial model.
+* ⭐ **[stm32-freertos-sensor-hub](https://github.com/Sherifred123/stm32-freertos-sensor-hub)** — Multi-tasking sensor acquisition and telemetry with FreeRTOS queues, mutexes, and watchdog supervision on STM32.
+* ⭐ **[industrial-sensor-hal](https://github.com/Sherifred123/industrial-sensor-hal)** — Decoupled sensor driver library for MAX6675 (SPI), DS18B20 (1-Wire with CRC8), and NTC ADC LUT interpolation.
+* ⭐ **[modbus-rtu-slave-c](https://github.com/Sherifred123/modbus-rtu-slave-c)** — Lightweight Modbus-RTU slave protocol stack with fast table CRC-16 for RS-485 industrial networks.
 
 ---
 
