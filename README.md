@@ -1,54 +1,88 @@
 # Sherifred Singh
-### Embedded Firmware Engineer | Industrial Automation & Control Systems
+### Senior Embedded Firmware & Automotive Systems Engineer
 **Coimbatore, India** • [LinkedIn](https://www.linkedin.com/in/sherifredsing/) • [Email](mailto:ssherifred@gmail.com) • [Portfolio](https://sherifred123.github.io/PORTFOLIO/)
 
 ---
 
-## ⚡ Summary
+## ⚡ Executive Engineering Summary
 
-Embedded Firmware Developer with **6.5+ years in industrial automation** (4.5+ years dedicated to firmware engineering, preceded by 2 years in hardware testing and control system bring-up). 
+Senior Embedded Systems Engineer with **6.5+ years of production experience** delivering robust, safety-critical firmware across automotive, industrial automation, and edge telemetry domains.
 
-Focused on register-level **Embedded C**, modular peripheral drivers, state machines, and FreeRTOS across **PIC18** and **STM32 (ARM Cortex-M)** platforms. I prioritize writing clean, predictable firmware with clear hardware abstraction, MISRA-C awareness, and robust fault handling.
+Specialized in register-level **Embedded C (C99)**, **ARM Cortex-M4 (STM32F446RE @ 180 MHz)**, **Automotive In-Vehicle Networking (CAN, ISO 14229-1 UDS, ISO 15765-2 DoCAN)**, **Edge DSP / Signal Processing**, **Secure In-Application Programming (IAP) Bootloaders**, and **Python-based automated test frameworks (pytest)**. Strong foundation in hardware-software co-design, MISRA-C compliance, FreeRTOS multi-threading, and Linux kernel drivers.
 
 ---
 
-## 🛠 Technical Skills
+## 🛠 Technical Proficiencies
 
 <p align="left">
-  <!-- Core Languages & OS -->
-  <img src="https://img.shields.io/badge/C%20%2F%20Embedded%20C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
+  <!-- Core Languages & Systems -->
+  <img src="https://img.shields.io/badge/Embedded%20C%20(C99)-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python%203-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/FreeRTOS-7F00FF?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Linux%20Kernel%20Drivers-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
   <br>
-  <!-- Silicon Platforms -->
-  <img src="https://img.shields.io/badge/PIC%2016%2F18-Microchip-000000?style=for-the-badge&logo=microchip&logoColor=white"/>
-  <img src="https://img.shields.io/badge/STM32%20ARM-STMicroelectronics-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ESP32-Espressif-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
+  <!-- Silicon Architectures -->
+  <img src="https://img.shields.io/badge/STM32%20ARM%20Cortex--M4%20(180MHz)-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Microchip%20PIC18-000000?style=for-the-badge&logo=microchip&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ESP32%20SoC-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
   <br>
-  <!-- Dedicated IDEs & Build Tools -->
-  <img src="https://img.shields.io/badge/MPLAB%20X-FF7A00?style=for-the-badge&logo=microchip&logoColor=white"/>
+  <!-- Automotive & Industrial Protocols -->
+  <img src="https://img.shields.io/badge/CAN%20Bus%20%2F%20CAN--FD-004080?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ISO%2014229--1%20UDS-darkred?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ISO%2015765--2%20DoCAN-indigo?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Modbus%20RTU%20(RS--485)-darkgreen?style=for-the-badge&logoColor=white"/>
+  <br>
+  <!-- Tools, CI & Testing -->
+  <img src="https://img.shields.io/badge/Pytest%20Automation-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Unity%20C%20Test-brightgreen?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub%20Actions%20CI-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
   <img src="https://img.shields.io/badge/STM32CubeIDE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Keil%20µVision-00599C?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git%20Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 </p>
 
-- **Languages & Guidelines:** C, Embedded C, MISRA-C Guidelines
-- **Firmware Design:** Bare-Metal Drivers, State Machines, Non-Blocking Timers, ISR Architecture
-- **RTOS:** FreeRTOS (Tasks, Queues, Semaphores, Mutexes)
-- **Microcontrollers:** Microchip PIC16 / PIC18, STM32 ARM Cortex-M (STM32F1), ESP32 (Basic)
-- **Protocols & Busses:** UART, SPI, I2C, 1-Wire, RS-485 / Modbus RTU, CAN Bus (Basics), BLE
-- **Development Tools:** MPLAB X, STM32CubeIDE, Keil µVision, Make / CMake, Unity Unit Test, Git
-- **Hardware & Lab Testing:** Digital Storage Oscilloscope (DSO), Logic Analyzer, Multimeter, Schematic Review (KiCad), SMD & THT Soldering
+* **Architecture & Firmwares:** Bare-metal register drivers, ISR architecture, hardware DMA ping-pong buffering, FSM engines, non-blocking timers, circular ring buffers.
+* **Automotive Protocols & Standards:** ISO 14229-1 (Unified Diagnostic Services), ISO 15765-2 (DoCAN), CAN 2.0B / CAN-FD, ISO 10816-3 (Condition Monitoring), Seed-Key Security Access algorithms.
+* **Test Automation & Quality:** Automated hardware-in-the-loop (HIL) test suites, Pytest diagnostic test automation, Unity C unit testing, GitHub Actions CI/CD workflows, MISRA-C static safety principles.
+* **Hardware & Lab Equipment:** Digital Storage Oscilloscopes (DSO), Saleae Logic Analyzers, CAN transceivers, ST-LINK V2/V3 debugging, Multimeter, Schematic Review (KiCad).
 
 ---
 
-## 💡 Areas of Interest
+## 🏆 Featured Production Repositories (STM32 NUCLEO-F446RE & Automotive)
 
-- Embedded Linux & Build Systems
-- Modular Driver Architecture
-- Industrial Automation & Protocol Gateways
-- Real-Time Embedded Systems (RTOS)
+### 🚗 1. [stm32-automotive-uds-isotp-node](https://github.com/Sherifred123/stm32-automotive-uds-isotp-node)
+> **Production ISO 14229-1 (UDS) Server & ISO 15765-2 (DoCAN) Transport Layer on STM32F446RE (ARM Cortex-M4 @ 180 MHz)**
+* Full ISO 15765-2 DoCAN network layer handling Single Frame, First Frame, Flow Control (with `BS` and `STmin`), and Consecutive Frames with strict timeout monitoring (`N_Bs`, `N_Cr`).
+* Complete ISO 14229-1 UDS diagnostic server supporting services `0x10`, `0x11`, `0x14`, `0x19`, `0x22`, `0x27` (with 3-attempt lockout), `0x2E`, `0x31`, and `0x3E`.
+* Hardware bxCAN peripheral driver configured at 500 kbps with dual 32-bit hardware identifier filtering.
+* **Verification:** 15/15 Unity C unit tests passing + 9/9 Python diagnostic client validation tests.
+
+### ⚙️ 2. [stm32-dsp-vibration-spectral-analyzer](https://github.com/Sherifred123/stm32-dsp-vibration-spectral-analyzer)
+> **Real-Time 1024-Point Real FFT & Ping-Pong DMA Edge DSP Engine on STM32F446RE FPU**
+* Continuous 50 kHz accelerometer sampling triggered via TIM2 TRGO into ADC1 with zero CPU overhead using DMA2 Stream 0 double-buffering.
+* 1024-point Real FFT decomposition on ARM Cortex-M4 hardware FPU executing in under 1.1 ms (5.3% CPU budget).
+* Raised-cosine Hanning windowing, parabolic sub-bin peak interpolation, Total Harmonic Distortion (THD %) computation, and automated ISO 10816-3 machinery vibration health evaluation.
+* **Verification:** 7/7 Unity C unit tests + Python real-time spectral waterfall viewer tool.
+
+### 🛡️ 3. [stm32-failsafe-iap-bootloader](https://github.com/Sherifred123/stm32-failsafe-iap-bootloader)
+> **Brick-Proof Dual-Slot In-Application Programming (IAP) Bootloader on STM32F446RE (512 KB Flash)**
+* Asymmetric NOR Flash partitioning (Slot A: 192 KB, Slot B: 256 KB) strictly aligned to physical erase sector boundaries.
+* Hardware CRC-32 accelerator (`0x04C11DB7`) over entire image payload with structured 40-byte `image_header_t`.
+* Main Stack Pointer (MSP) sanity checking within physical SRAM bounds (`0x20000000`–`0x20020000`), vector table relocation (`SCB->VTOR`), and execution handover.
+* Watchdog probation window (`SLOT_STATE_TESTING`) with automatic rollback to alternate slot if firmware crashes repeatedly.
+* **Verification:** 10/10 Unity C unit tests + Python IAP packager and UART flasher utility.
+
+### 🔋 4. [pytest-bms-diagnostic-framework](https://github.com/Sherifred123/pytest-bms-diagnostic-framework)
+> **Automotive EV Battery Management System (BMS) Diagnostic Test Automation in Python**
+* Production Pytest test harness validating cell balancing, overvoltage/undervoltage thresholds, thermal runaway alerts, and UDS diagnostic routines.
+* Automated CAN bus telemetry decoding, log assertions, and test report generation.
+
+### 🐧 5. [linux-telemetry-char-driver](https://github.com/Sherifred123/linux-telemetry-char-driver)
+> **Linux Kernel Character Device Driver with Concurrency Control & Ring Buffering**
+* Kernel character driver with non-blocking I/O, wait queues, mutex concurrency protection, and ioctl telemetry control.
+
+### 🏎️ 6. [automotive-tft-cluster](https://github.com/Sherifred123/automotive-tft-cluster)
+> **Real-Time Automotive Digital Instrument Cluster with High-Speed CAN Bus Ingestion**
+* High-performance instrument cluster displaying real-time speed, RPM, battery telemetry, and ISO warning telltales.
 
 ---
 
@@ -62,43 +96,23 @@ Focused on register-level **Embedded C**, modular peripheral drivers, state mach
 
 ---
 
-## 🏭 Commercial Projects
+## 🏭 Commercial Products & Track Record
 
 ### 🔹 Automatic Transfer Switch (ATS) Controller
 **Target:** Microchip PIC18 • **Status:** Commercial Product *(Source Code Confidential)*  
-
-*Industrial power automation controller for automated, fail-safe switching between mains grid and backup generator.*
-
-* **Role:** Firmware Design, Driver Development & Lab Validation.
-
-* Implemented multi-state generator & mains transfer logic with strict *break-before-make* relay interlocking to prevent cross-connection.
-* Configured calibrated ADC sampling for rapid undervoltage, overvoltage, and phase-imbalance detection.
-* Automated generator engine sequencing: warm-up/cool-down timing, crank/recrank cycles, and persistent fault and runtime event logging to internal EEPROM.
-
----
+* Industrial power automation controller for automated, fail-safe switching between mains grid and backup generator.
+* Implemented multi-state generator & mains transfer logic with strict *break-before-make* relay interlocking.
+* Configured calibrated ADC sampling for rapid undervoltage, overvoltage, and phase-imbalance detection with persistent EEPROM fault logging.
 
 ### 🔹 16-Loom Textile Production Monitor
 **Target:** PIC18 / STM32 • **Status:** Commercial Product *(Source Code Confidential)*  
-
-*Edge monitoring and logging system deployed across industrial weaving facilities.*
-
-* **Role:** Firmware Implementation, GLCD HMI Interface & EEPROM Storage.
-
-* Collected and aggregated real-time, shift-wise production metrics from up to 16 looms simultaneously.
-* Built a power-fail-safe state snapshotting mechanism to EEPROM with RTC (DS3231) timestamping to prevent data loss during power cuts.
-* Developed an interactive Graphical LCD (GLCD) menu for operator configuration, calibration, and shift reporting.
-
----
+* Edge monitoring and logging system deployed across industrial weaving facilities collecting shift-wise metrics from 16 looms simultaneously.
+* Built a power-fail-safe state snapshotting mechanism to EEPROM with RTC (DS3231) timestamping.
 
 ### 🔹 Multi-Stage Industrial Temperature Controller
 **Target:** PIC18F46K22 • **Status:** Commercial Product *(Source Code Confidential)*  
-
-*Precision cooling and compressor management controller for commercial refrigeration units.*
-
-* **Role:** Sensor Driver Integration & Control Logic.
-
-* Interfaced multiple sensor types: analog NTC (calibrated ADC lookup-table (LUT) linearisation), 1-Wire (DS18B20), and SPI (MAX6675 thermocouple interface).
-* Implemented staged multi-compressor control with configurable differential hysteresis, anti-short-cycle delay timers, and alarm trip matrices.
+* Precision cooling and compressor management controller for commercial refrigeration units.
+* Interfaced analog NTC (calibrated LUT linearisation), 1-Wire (DS18B20), and SPI (MAX6675) with anti-short-cycle delay timers.
 
 ---
 
