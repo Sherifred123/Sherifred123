@@ -1,6 +1,6 @@
 # Sherifred Singh
 ### Senior Embedded Firmware & Automotive Systems Engineer
-**Coimbatore, India** • [LinkedIn](https://www.linkedin.com/in/sherifredsing/) • [Email](mailto:ssherifred@gmail.com) • [Portfolio](https://sherifred123.github.io/PORTFOLIO/)
+**Coimbatore, India** • [LinkedIn](https://www.linkedin.com/in/sherifredsing/) • [Email](mailto:ssherifred@gmail.com) • [Portfolio](https://sherifred-singh.github.io/PORTFOLIO/)
 
 ---
 
@@ -49,21 +49,21 @@ Specialized in register-level **Embedded C (C99)**, **ARM Cortex-M4 (STM32F446RE
 
 ## 🏆 Featured Production Repositories (STM32 NUCLEO-F446RE & Automotive)
 
-### 🚗 1. [stm32-automotive-uds-isotp-node](https://github.com/Sherifred123/stm32-automotive-uds-isotp-node)
+### 🚗 1. [stm32-automotive-uds-isotp-node](https://github.com/sherifred-singh/stm32-automotive-uds-isotp-node)
 > **Production ISO 14229-1 (UDS) Server & ISO 15765-2 (DoCAN) Transport Layer on STM32F446RE (ARM Cortex-M4 @ 180 MHz)**
 * Full ISO 15765-2 DoCAN network layer handling Single Frame, First Frame, Flow Control (with `BS` and `STmin`), and Consecutive Frames with strict timeout monitoring (`N_Bs`, `N_Cr`).
 * Complete ISO 14229-1 UDS diagnostic server supporting services `0x10`, `0x11`, `0x14`, `0x19`, `0x22`, `0x27` (with 3-attempt lockout), `0x2E`, `0x31`, and `0x3E`.
 * Hardware bxCAN peripheral driver configured at 500 kbps with dual 32-bit hardware identifier filtering.
 * **Verification:** 15/15 Unity C unit tests passing + 9/9 Python diagnostic client validation tests.
 
-### ⚙️ 2. [stm32-dsp-vibration-spectral-analyzer](https://github.com/Sherifred123/stm32-dsp-vibration-spectral-analyzer)
+### ⚙️ 2. [stm32-dsp-vibration-spectral-analyzer](https://github.com/sherifred-singh/stm32-dsp-vibration-spectral-analyzer)
 > **Real-Time 1024-Point Real FFT & Ping-Pong DMA Edge DSP Engine on STM32F446RE FPU**
 * Continuous 50 kHz accelerometer sampling triggered via TIM2 TRGO into ADC1 with zero CPU overhead using DMA2 Stream 0 double-buffering.
 * 1024-point Real FFT decomposition on ARM Cortex-M4 hardware FPU executing in under 1.1 ms (5.3% CPU budget).
 * Raised-cosine Hanning windowing, parabolic sub-bin peak interpolation, Total Harmonic Distortion (THD %) computation, and automated ISO 10816-3 machinery vibration health evaluation.
 * **Verification:** 7/7 Unity C unit tests + Python real-time spectral waterfall viewer tool.
 
-### 🛡️ 3. [stm32-failsafe-iap-bootloader](https://github.com/Sherifred123/stm32-failsafe-iap-bootloader)
+### 🛡️ 3. [stm32-failsafe-iap-bootloader](https://github.com/sherifred-singh/stm32-failsafe-iap-bootloader)
 > **Brick-Proof Dual-Slot In-Application Programming (IAP) Bootloader on STM32F446RE (512 KB Flash)**
 * Asymmetric NOR Flash partitioning (Slot A: 192 KB, Slot B: 256 KB) strictly aligned to physical erase sector boundaries.
 * Hardware CRC-32 accelerator (`0x04C11DB7`) over entire image payload with structured 40-byte `image_header_t`.
@@ -71,16 +71,16 @@ Specialized in register-level **Embedded C (C99)**, **ARM Cortex-M4 (STM32F446RE
 * Watchdog probation window (`SLOT_STATE_TESTING`) with automatic rollback to alternate slot if firmware crashes repeatedly.
 * **Verification:** 10/10 Unity C unit tests + Python IAP packager and UART flasher utility.
 
-### 🔋 4. [pytest-bms-diagnostic-framework](https://github.com/Sherifred123/pytest-bms-diagnostic-framework)
+### 🔋 4. [pytest-bms-diagnostic-framework](https://github.com/sherifred-singh/pytest-bms-diagnostic-framework)
 > **Automotive EV Battery Management System (BMS) Diagnostic Test Automation in Python**
 * Production Pytest test harness validating cell balancing, overvoltage/undervoltage thresholds, thermal runaway alerts, and UDS diagnostic routines.
 * Automated CAN bus telemetry decoding, log assertions, and test report generation.
 
-### 🐧 5. [linux-telemetry-char-driver](https://github.com/Sherifred123/linux-telemetry-char-driver)
+### 🐧 5. [linux-telemetry-char-driver](https://github.com/sherifred-singh/linux-telemetry-char-driver)
 > **Linux Kernel Character Device Driver with Concurrency Control & Ring Buffering**
 * Kernel character driver with non-blocking I/O, wait queues, mutex concurrency protection, and ioctl telemetry control.
 
-### 🏎️ 6. [automotive-tft-cluster](https://github.com/Sherifred123/automotive-tft-cluster)
+### 🏎️ 6. [automotive-tft-cluster](https://github.com/sherifred-singh/automotive-tft-cluster)
 > **Real-Time Automotive Digital Instrument Cluster with High-Speed CAN Bus Ingestion**
 * High-performance instrument cluster displaying real-time speed, RPM, battery telemetry, and ISO warning telltales.
 
@@ -88,11 +88,11 @@ Specialized in register-level **Embedded C (C99)**, **ARM Cortex-M4 (STM32F446RE
 
 ## 📂 Core Firmware Modules & Driver Architecture (Open Source)
 
-* ⭐ **[embedded-c-ring-buffer](https://github.com/Sherifred123/embedded-c-ring-buffer)** — Lock-free, thread-safe FIFO circular ring buffer in C99 for UART/SPI ISR-to-main communication.
-* ⭐ **[embedded-fsm-engine](https://github.com/Sherifred123/embedded-fsm-engine)** — Table-driven Finite State Machine (FSM) framework with an Automatic Transfer Switch (ATS) industrial model.
-* ⭐ **[stm32-freertos-sensor-hub](https://github.com/Sherifred123/stm32-freertos-sensor-hub)** — Multi-tasking sensor acquisition and telemetry with FreeRTOS queues, mutexes, and watchdog supervision on STM32.
-* ⭐ **[industrial-sensor-hal](https://github.com/Sherifred123/industrial-sensor-hal)** — Decoupled sensor driver library for MAX6675 (SPI), DS18B20 (1-Wire with CRC8), and NTC ADC LUT interpolation.
-* ⭐ **[modbus-rtu-slave-c](https://github.com/Sherifred123/modbus-rtu-slave-c)** — Lightweight Modbus-RTU slave protocol stack with fast table CRC-16 for RS-485 industrial networks.
+* ⭐ **[embedded-c-ring-buffer](https://github.com/sherifred-singh/embedded-c-ring-buffer)** — Lock-free, thread-safe FIFO circular ring buffer in C99 for UART/SPI ISR-to-main communication.
+* ⭐ **[embedded-fsm-engine](https://github.com/sherifred-singh/embedded-fsm-engine)** — Table-driven Finite State Machine (FSM) framework with an Automatic Transfer Switch (ATS) industrial model.
+* ⭐ **[stm32-freertos-sensor-hub](https://github.com/sherifred-singh/stm32-freertos-sensor-hub)** — Multi-tasking sensor acquisition and telemetry with FreeRTOS queues, mutexes, and watchdog supervision on STM32.
+* ⭐ **[industrial-sensor-hal](https://github.com/sherifred-singh/industrial-sensor-hal)** — Decoupled sensor driver library for MAX6675 (SPI), DS18B20 (1-Wire with CRC8), and NTC ADC LUT interpolation.
+* ⭐ **[modbus-rtu-slave-c](https://github.com/sherifred-singh/modbus-rtu-slave-c)** — Lightweight Modbus-RTU slave protocol stack with fast table CRC-16 for RS-485 industrial networks.
 
 ---
 
@@ -120,13 +120,13 @@ Specialized in register-level **Embedded C (C99)**, **ARM Cortex-M4 (STM32F446RE
   <table border="0">
     <tr>
       <td align="center" valign="middle">
-        <a href="https://github.com/Sherifred123">
-          <img src="https://streak-stats.demolab.com?user=Sherifred123&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" height="145" alt="GitHub Streak" />
+        <a href="https://github.com/sherifred-singh">
+          <img src="https://streak-stats.demolab.com?user=sherifred-singh&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" height="145" alt="GitHub Streak" />
         </a>
       </td>
       <td align="center" valign="middle">
-        <a href="https://github.com/Sherifred123">
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sherifred123&theme=tokyonight" height="145" alt="GitHub Profile Details" />
+        <a href="https://github.com/sherifred-singh">
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sherifred-singh&theme=tokyonight" height="145" alt="GitHub Profile Details" />
         </a>
       </td>
     </tr>
